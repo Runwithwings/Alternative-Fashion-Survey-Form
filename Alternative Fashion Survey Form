@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">Certification Project #1</h1>
+<p id="description">Certification Project: Survey Form</p>
+<body>
+  <form id="survey-form">
+
+<fieldset>
+<input id="name" type="text" placeholder="Madison Square" required><label for="name"></input>
+<label id="name-label">Enter your name</label>
+
+<input id="email" type="email" placeholder="madison_square@yahoo.com" required></input>
+<label for="email"></label>
+<label id="email-label">Enter your email</label>
+
+<input id="number" type="number" min="0" max="9" placeholder="000-000-0000" required></input>
+<label for="number"></input>
+<label id="number-label"><span>Enter your phone number</span></label>
+</fieldset>
+
+<fieldset>
+  <legend>Are you happy with your current style?</legend>
+ <label for="yes"><input name="yes" value="1" type="radio"></input>Yes</label>
+ <label for="no"><input name="no" value="2" type="radio"></input>No</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Do you wear acrylic or presson nails?</legend>
+<label for="yes"><input name="yes" value="1" type="radio"></input>Yes</label>
+ <label for="no"><input name="no" value="2" type="radio"></input>No</label>
+  </fieldset>
+
+<fieldset>
+<label for="dropdown">What is your favorite nail shape?</label>
+<select id="dropdown">
+<option value="">Select One</option>
+<option value="1">Almond</option>
+<option value="2">Coffin</option>
+<option value="3">Stiletto</option>
+<option value="4">Square</option>
+<option value="5">Duck</option>
+</select>
+</fieldset>
+
+<fieldset>
+<label for="dropdown">Select your personal style (you may select more than one).</label>
+<input type="checkbox" value="1">Y2K</input>
+<input type="checkbox" value="2">Gyaru</input>
+<input type="checkbox" value="3">McBling</input>
+<input type="checkbox" value="4">Douyin</input>
+<input type="checkbox" value="5">Goth</input>
+<input type="checkbox" value="6">Emo</input>
+<input type="checkbox" value="7">Alternative</input>
+</fieldset>
+
+  <label for="additional-comments">Any additional comments?<textarea id="additional-comments" name="additional-comments"></textarea>
+</label>
+<button type="submit" id="submit" value="Submit">Submit</button>
+</fieldset>
+</form>
+</body>
+
+<style>body{background-color: pink;
+    color: black;
+    font-family: georgia;}
+    
+    button{display: block;
+    width: 50%;
+    height: 2em;
+    margin: 1em auto;
+    background-color: white}</style>
