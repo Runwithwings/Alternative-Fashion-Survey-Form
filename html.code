@@ -58,13 +58,3 @@
 </fieldset>
 </form>
 </body>
-
-<style>body{background-color: pink;
-    color: black;
-    font-family: georgia;}
-    
-    button{display: block;
-    width: 50%;
-    height: 2em;
-    margin: 1em auto;
-    background-color: white}</style>
